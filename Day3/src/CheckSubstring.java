@@ -22,5 +22,7 @@ public class CheckSubstring {
             }
             System.out.print("Chuoi 2 khong la substring cua chuoi 1");
         }
+        else
+            System.out.print("Chuoi 2 khong la substring cua chuoi 1");
     }
 }

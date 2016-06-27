@@ -4,7 +4,6 @@
     <list default="true" id="1e4925da-b499-46c9-a54e-2df7f6e3477d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day3/src/CheckSubstring.java" afterPath="$PROJECT_DIR$/Day3/src/CheckSubstring.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day3/src/Quadratic.java" afterPath="$PROJECT_DIR$/Day3/src/Quadratic.java" />
     </list>
     <ignored path="BaiTap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,21 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quadratic.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Quadratic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day3/src/Quadratic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="300">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckSubstring.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CheckSubstring.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day3/src/CheckSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="330">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -115,8 +114,8 @@
         <option value="$PROJECT_DIR$/Day3/src/Operators.java" />
         <option value="$PROJECT_DIR$/Day3/src/DateInMonth.java" />
         <option value="$PROJECT_DIR$/Day3/src/Zeller.java" />
-        <option value="$PROJECT_DIR$/Day3/src/CheckSubstring.java" />
         <option value="$PROJECT_DIR$/Day3/src/Quadratic.java" />
+        <option value="$PROJECT_DIR$/Day3/src/CheckSubstring.java" />
       </list>
     </option>
   </component>
@@ -219,7 +218,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyProject/src/HelloWorld.class" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Quadratic">
+  <component name="RunManager" selected="Application.CheckSubstring">
     <configuration default="false" name="CheckSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="CheckSubstring" />
@@ -538,9 +537,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Quadratic" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Zeller" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CheckSubstring" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CheckSubstring" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Quadratic" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Zeller" />
         <item index="3" class="java.lang.String" itemvalue="Application.DateInMonth" />
         <item index="4" class="java.lang.String" itemvalue="Application.Operators" />
       </list>
@@ -602,7 +601,21 @@
       <option name="project" value="LOCAL" />
       <updated>1467029463542</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="jcbs">
+      <created>1467031029146</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1467031029146</updated>
+    </task>
+    <task id="LOCAL-00008" summary="jcbs">
+      <created>1467031090532</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1467031090532</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -868,18 +881,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day3/src/CheckSubstring.java">
+    <entry file="file://$PROJECT_DIR$/Day3/src/Quadratic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="300">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day3/src/Quadratic.java">
+    <entry file="file://$PROJECT_DIR$/Day3/src/CheckSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="330">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
           <folding />
         </state>
       </provider>
