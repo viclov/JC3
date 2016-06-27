@@ -13,38 +13,41 @@ public class Zeller {
         System.out.print("Nhap vao ngay cua thang: ");
         int q = Integer.parseInt(in.readLine());
         int h, m;
-        if(month==1||month==2) m = month + 12;
+        if(month==1||month==2) {
+            m = month + 12;
+            year=year - 1;
+        }
         else m = month;
         int j = year/100;
         int k = year/100;
         h = (q + 26*(m+1)/10+k+k/4+j/4+5*j)%7;
         switch(h) {
             case 0: {
-                System.out.print("Ngay cua tuan la Thu 6");
-                break;
-            }
-            case 1: {
                 System.out.print("Ngay cua tuan la Thu 7");
                 break;
             }
-            case 2: {
+            case 1: {
                 System.out.print("Ngay cua tuan la Chu Nhat");
                 break;
             }
-            case 3: {
+            case 2: {
                 System.out.print("Ngay cua tuan la Thu 2");
                 break;
             }
-            case 4: {
+            case 3: {
                 System.out.print("Ngay cua tuan la Thu 3");
                 break;
             }
-            case 5: {
+            case 4: {
                 System.out.print("Ngay cua tuan la Thu 4");
                 break;
             }
-            case 6: {
+            case 5: {
                 System.out.print("Ngay cua tuan la Thu 5");
+                break;
+            }
+            case 6: {
+                System.out.print("Ngay cua tuan la Thu 6");
                 break;
             }
         }
