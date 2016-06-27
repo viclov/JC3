@@ -13,12 +13,14 @@ public class CheckSubstring {
         s_2 = scanln.nextLine();
         int m = s_1.length(), n = s_2.length();
         int i;
-        for (i = 0 ; i < m - n ; i++) {
-            if (s_1.substring(i,i+n).equals(s_2)) {
-                System.out.print("Chuoi 2 la substring cua chuoi 1");
-                return;
+        if (m > n) {
+            for (i = 0 ; i < m - n ; i++) {
+                if (s_1.substring(i,i+n).equals(s_2)) {
+                    System.out.print("Chuoi 2 la substring cua chuoi 1");
+                    return;
+                }
             }
+            System.out.print("Chuoi 2 khong la substring cua chuoi 1");
         }
-        System.out.print("Chuoi 2 khong la substring cua chuoi 1");
     }
 }
