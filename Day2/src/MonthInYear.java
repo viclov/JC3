@@ -2,6 +2,7 @@
  * Created by VuThang on 6/24/16.
  */
 import java.util.Scanner;
+
 public class MonthInYear {
     public static void main(String[] args) {
         Scanner scanln = new Scanner(System.in);
