@@ -8,11 +8,11 @@ public class Quadratic {
         Scanner scanln = new Scanner(System.in);
         double a, b, c;
         System.out.print("Nhap a = ");
-        a = scanln.nextFloat();
+        a = scanln.nextDouble();
         System.out.print("Nhap b = ");
-        b = scanln.nextFloat();
+        b = scanln.nextDouble();
         System.out.print("Nhap c = ");
-        c = scanln.nextFloat();
+        c = scanln.nextDouble();
         double d = b*b - 4*a*c;
         double e = Math.pow(10,-10);
         if (d < 0) {
