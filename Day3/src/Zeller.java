@@ -13,8 +13,7 @@ public class Zeller {
         System.out.print("Nhap vao ngay cua thang: ");
         int q = Integer.parseInt(in.readLine());
         int h, m;
-        if(month==1) m = 13;
-        else if(month==2) m = 14;
+        if(month==1||month==2) m = month + 12;
         else m = month;
         int j = year/100;
         int k = year/100;
